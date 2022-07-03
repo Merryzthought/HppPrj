@@ -11,6 +11,10 @@ enum ModeOfPathPlanning {
 }
 
 public class Constant {
+    public enum ModeOfPathPlanning {
+    FRANSEN,
+    PROPOSE
+}
     public static long startTime;
     public static double rng01() {
         return Math.random();
