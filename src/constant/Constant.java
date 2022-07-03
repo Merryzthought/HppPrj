@@ -5,10 +5,7 @@ import java.util.Set;
 import classes.Actor;
 import classes.Node;
 
-enum ModeOfPathPlanning {
-    FRANSEN,
-    PROPOSE
-}
+
 
 public class Constant {
     public enum ModeOfPathPlanning {
